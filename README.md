@@ -1,6 +1,6 @@
 # MessagePortConnection
 
-A simple bidirectional cross-process communication class based on `CFMessagePort`, based on the method discussed here: https://ddeville.me/2015/02/interprocess-communication-on-ios-with-mach-messages/. As mentioned in the post this can be used for cross-process communication on iOS between processes sharing the same app group by using two port names prefixed with the app group identifier - `com.company.app.group.*`.
+A simple bidirectional cross-process communication class based on `CFMessagePort`, based on the method discussed here: https://ddeville.me/2015/02/interprocess-communication-on-ios-with-mach-messages/. As mentioned in the post this can be used for cross-process communication on iOS app store apps between processes sharing the same app group by using two port names prefixed with the app group identifier - `com.company.app.group.*`.
 
 
 
